@@ -17,7 +17,7 @@ import sidd88.blogapi.service.PostService;
  * Controller: Post
  */
 @RestController
-@RequestMapping("/api/posts")
+@RequestMapping("/api/v1/posts")
 @Tag(name = "CRUD REST APIs for Post resource")
 public class PostController {
 
